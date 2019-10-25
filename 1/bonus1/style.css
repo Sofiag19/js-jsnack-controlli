@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://previews.123rf.com/images/ifh/ifh1511/ifh151100236/49201974-illustrazione-di-sfondo-con-numeri-in-tonalit%C3%A0-di-colore-blu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#maggiore {
+  background-color: rgb(2, 20, 32);
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px white;
+}

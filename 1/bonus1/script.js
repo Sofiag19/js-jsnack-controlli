@@ -10,15 +10,19 @@ primoNum = parseInt(prompt("Inserisci il primo numero"));
 // richiesta secondo numero
 secondoNum = parseInt(prompt("Inserisci il secondo numero"));
 
-// output numero più alto
-if (primoNum > secondoNum) {
-  // console.log(primoNum);
-  document.getElementById('maggiore').innerHTML = "Il numero maggiore è " + primoNum;
-} else if (primoNum < secondoNum) {
-  // console.log(secondoNum);
-  document.getElementById('maggiore').innerHTML = "Il numero maggiore è " + secondoNum;
+var risultato = document.getElementById('maggiore');
+if (!(isNaN(primoNum)) && !(isNaN(secondoNum))) {
+  // output numero più alto
+  if (primoNum > secondoNum) {
+    // console.log(primoNum);
+    risultato.innerHTML = "Il numero maggiore è " + primoNum;
+  } else if (primoNum < secondoNum) {
+    // console.log(secondoNum);
+    risultato.innerHTML = "Il numero maggiore è " + secondoNum;
+  } else {
+    // console.log("riprova ed immetti due numeri diversi");
+    risultato.innerHTML = "Riprova ed immetti due numeri diversi";
+  }
 } else {
-  // console.log("riprova ed immetti due numeri diversi");
-  document.getElementById('maggiore').innerHTML = "Riprova ed immetti due numeri diversi";
+  risultato.innerHTML = "Non hai inserito due numeri"
 }
-
