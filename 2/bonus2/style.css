@@ -1,0 +1,18 @@
+body {
+  background-image: radial-gradient(#BAFFB3,#77FF67,#5ECC52);
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#parole {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #3B8033;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px#5D8059;
+}

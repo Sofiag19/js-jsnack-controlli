@@ -19,10 +19,12 @@ if (!(isNaN(primoNum)) && !(isNaN(secondoNum))) {
   } else if (primoNum < secondoNum) {
     // console.log(secondoNum);
     risultato.innerHTML = "Il numero maggiore è " + secondoNum;
-  } else {
+  } else if (primoNum === secondoNum) {
+    risultato.innerHTML = "Hai inserito due numeri uguali";
+  }else {
     // console.log("riprova ed immetti due numeri diversi");
     risultato.innerHTML = "Riprova ed immetti due numeri diversi";
   }
 } else {
-  risultato.innerHTML = "Non hai inserito due numeri"
+  risultato.innerHTML = "Non hai inserito due numeri";
 }
