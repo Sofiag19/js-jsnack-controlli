@@ -19,5 +19,6 @@ for (var i = 0; i < 6; i++) {
 }
 
 if (dispari = true) {
-  console.log(numDisp);
+  // console.log(numDisp);
+  document.getElementById("pag").innerHTML = numDisp;
 }
