@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  display: flex;
+}
+
+.red {
+  color: red;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 30px;
+  width: 150px;
+  background-image: linear-gradient(to right, red 50%, green 50%);
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-size: 30px;
+  margin-top: 20px;
+}
